@@ -27,22 +27,23 @@ let operator
 
 function operate(firstNumber, operator, secondNumber){
   let result;
-  switch(operator):
-    case +:
+  let stringOperator = toString(operator);
+  switch(stringOperator){
+    case '+':
       result = addition(firstNumber, secondNumber);
       break;
     
-    case -:
+    case '-':
       result = subtraction(firstNumber, secondNumber); 
       break;
 
-    case *:
+    case '*':
       result = multiplication(firstNumber, secondNumber);
       break;
 
-    case /:
+    case '/':
       result = division(firstNumber, secondNumber);
       break;
-
+  }
   return result;
-};
+}
