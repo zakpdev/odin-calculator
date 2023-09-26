@@ -1,6 +1,6 @@
 // Functions for basic arithmetic operations
 function addition(addend1, addend2){
-  return a + b;
+  return addend1 + addend2;
 };
 
 function subtraction(minuend, subtrahend){
@@ -27,8 +27,8 @@ let operator
 
 function operate(firstNumber, operator, secondNumber){
   let result;
-  let stringOperator = toString(operator);
-  switch(stringOperator){
+  //let stringOperator = toString(operator);
+  switch(operator){
     case '+':
       result = addition(firstNumber, secondNumber);
       break;
