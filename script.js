@@ -23,3 +23,26 @@ let firstNumber
 let secondNumber
 let operator
 
+// Create a new function operate that takes an operator and 2 numbers and then calls one of the above functions on the numbers
+
+function operate(firstNumber, operator, secondNumber){
+  let result;
+  switch(operator):
+    case +:
+      result = addition(firstNumber, secondNumber);
+      break;
+    
+    case -:
+      result = subtraction(firstNumber, secondNumber); 
+      break;
+
+    case *:
+      result = multiplication(firstNumber, secondNumber);
+      break;
+
+    case /:
+      result = division(firstNumber, secondNumber);
+      break;
+
+  return result;
+};
