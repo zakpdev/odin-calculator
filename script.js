@@ -27,7 +27,6 @@ let operator
 
 function operate(firstNumber, operator, secondNumber){
   let result;
-  //let stringOperator = toString(operator);
   switch(operator){
     case '+':
       result = addition(firstNumber, secondNumber);
