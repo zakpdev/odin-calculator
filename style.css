@@ -32,12 +32,10 @@ body {
 }
 
 .expression {
-  text-align: right;
   flex: 1;
 }
 
 .current-value {
-  text-align: right;
   flex: 2;
 }
 
