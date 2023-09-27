@@ -16,4 +16,19 @@ body {
   height: 75vh;
   aspect-ratio: 11/16;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.screen, 
+.buttons{
+  border: 1px solid;
+}
+
+.screen {
+  flex: 1;
+}
+
+.buttons {
+  flex: 3;
 }
