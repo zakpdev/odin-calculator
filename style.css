@@ -10,3 +10,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.calc-container {
+  border: 3px solid;
+  height: 75vh;
+  aspect-ratio: 11/16;
+  border-radius: 20px;
+}
