@@ -31,4 +31,23 @@ body {
 
 .buttons {
   flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+  display: flex;
+  flex: 1;
+}
+
+button {
+  flex: 1;
+}
+
+#zero-button {
+  flex: 2;
 }
